@@ -1,0 +1,23 @@
+.root {
+  font-family: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  min-width: 100%;
+  min-height: fit-content;
+  border: solid 1px white;
+  align-items: center;
+
+  .main1 {
+    min-height: 768px;
+    border: solid 2px blueviolet;
+    /* background-image: url(/src/images/home-background.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: repeat; */
+  }
+
+  .main2 {
+    border: solid 2px yellowgreen;
+    min-height: 50vh;
+  }
+}

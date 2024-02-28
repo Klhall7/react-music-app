@@ -1,0 +1,39 @@
+.root {
+  display: flex;
+  flex-flow: wrap;
+  /* border: solid 1px yellowgreen; */
+
+  nav {
+    width: 100%;
+    overflow: hidden;
+    /* border: solid 1px blue;
+  } */
+
+    ul {
+      background-color: rgba(38, 44, 50, 0.837);
+      /* border: solid 1px red; */
+      display: flex;
+      justify-content: space-around;
+      padding: 3px;
+    }
+
+    img {
+      /* border: solid 1px green; */
+      width: auto;
+      height: 40px;
+      will-change: filter;
+      transition: filter 300ms;
+    }
+
+    img:hover {
+      filter: drop-shadow(0 0 2em orangered);
+    }
+
+    li {
+      /* border: solid 2px yellow; */
+      list-style: none;
+      display: flex;
+      place-self: center;
+    }
+  }
+}

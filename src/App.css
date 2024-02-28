@@ -1,0 +1,28 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 200;
+  font-size: 16px;
+  font-style: normal;
+  box-sizing: border-box;
+}
+
+/* body {
+  font-family: inherit;
+  background: linear-gradient(271deg,rgba(248, 185, 66, 0.766),rgba(0, 0, 0, 0.94) 70.71%);
+} */
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: goldenrod;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
